@@ -15,6 +15,11 @@ This class will validate id tokens from Azure B2C by using the public key signin
 * node-fetch
 * node-forge
 
+## Howto
+1. Replace <tenant-name> to the tenant URL found in B2C Azure Portal below Azure AD B2C Tenant
+2. Replace <user-flow> to the name from Azure AD B2C > User Flows > Name column. Example (B2C_1_signin)
+3. Add the code below to run a test
+
 ## Example
 Validate an ID token
 ```js
